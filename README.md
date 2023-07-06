@@ -39,3 +39,6 @@ covers:
    ```
    python create_newspaper.py"
    ```
+This should display a webpage that shows the following:
+1. A bulleted summary of all articles
+2. Summary of each article with the corresponding headline and url
