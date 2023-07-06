@@ -5,7 +5,7 @@
   <br><i>The unofficial NDTV news summarizer</i>
 </p>
 
-# Description:
+## Description:
 This repo seeks to scrape the latest news from the NDTV website (ndtv.com/latest) and provide summaries for the readers of the latest headlines in those areas. This repo
 covers:
 <ol>
@@ -15,9 +15,19 @@ covers:
   <li> <a href="doctor.ndtv.com">Doctor NDTV</a></li>
 </ol>
 
-# Requirements:
+## Requirements:
 1. You will need Python and pip installed to install the required libraries
 2. You will also need to register an OpenAI account and obtain an API key. If you don't have one, find how to <a href="https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/">here</a>
-# Execute:
+## Execute:
+### Install:
 1. Download the repo
-2. Navigate into the main folder and 
+2. Navigate into the main folder and run:<br>
+   `pip install -r`
+### Scrape:
+4. Go to the src folder and run the following commands one after another:
+5. Run the news extraction script using the following code
+   ```
+   python "ndtv_class.py"
+   ndtv_content = ndtv_test.run_extraction()
+   hl, summ, art, urls = ndtv_content
+   ```
