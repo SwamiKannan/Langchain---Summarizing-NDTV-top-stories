@@ -17,7 +17,7 @@ covers:
 
 # Requirements:
 1. You will need Python and pip installed to install the required libraries
-2. 
+2. You will also need to register an OpenAI account and obtain an API key. If you don't have one, find how to <a href="https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/">here</a>
 # Execute:
 1. Download the repo
-2. Navigate into the main folder
+2. Navigate into the main folder and 
