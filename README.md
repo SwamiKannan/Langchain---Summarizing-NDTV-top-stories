@@ -31,3 +31,8 @@ covers:
    ndtv_content = ndtv_test.run_extraction()
    hl, summ, art, urls = ndtv_content
    ```
+6. Summarize each article and all the articles by running the following code:
+   ```
+   python summarizer.py
+   ```
+7. Create the newspaper by running:
