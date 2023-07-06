@@ -42,3 +42,5 @@ covers:
 This should display a webpage that shows the following:
 1. A bulleted summary of all articles
 2. Summary of each article with the corresponding headline and url
+
+<b> This repo has no affiliation whatsoever with NDTV. It is not officially sanctioned, nor is there any collaboration / partnership whatsoever. This is only a personal project </b>
