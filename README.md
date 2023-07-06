@@ -36,3 +36,6 @@ covers:
    python summarizer.py
    ```
 7. Create the newspaper by running:
+   ```
+   python create_newspaper.py"
+   ```
