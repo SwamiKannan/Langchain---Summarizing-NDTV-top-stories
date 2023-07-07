@@ -9,7 +9,7 @@
 This repo seeks to scrape the latest news from the NDTV website (ndtv.com/latest) and provide summaries for the readers of the latest headlines in those areas. This repo
 covers:
 <ol>
-  <li> <a href="ndtv.com">the main NDTV website</a></li>
+  <li> <a href="ndtv.com">The main NDTV website</a></li>
   <li> <a href="Gadgets360.com">Gadgets 360</a></li>
   <li> <a href="food.ndtv.com">NDTV food</a></li>
   <li> <a href="doctor.ndtv.com">Doctor NDTV</a></li>
@@ -22,7 +22,7 @@ covers:
 ### Install:
 1. Download the repo
 2. Navigate into the main folder and run:<br>
-   `pip install -r`
+   `pip install -r requirements.txt`
 ### Scrape:
 4. Go to the src folder and run the following commands one after another:
 5. Run the news extraction script using the following code
