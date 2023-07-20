@@ -18,24 +18,31 @@ covers:
 ## Requirements:
 1. You will need Python and pip installed to install the required libraries
 2. You will also need to register an OpenAI account and obtain an API key. If you don't have one, find how to <a href="https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/">here</a>
-## Execute:
-### Install:
+## Install:
 1. Download the repo
 2. Navigate into the main folder and run:<br>
    `pip install -r requirements.txt`
-### Scrape:
-4. Go to the src folder and run the following commands one after another:
-5. Run the news extraction script using the following code
+
+## Run code:
+There are two ways to run the code:
+### A. Simple Way: Run
+`python main.py`
+### B. Hands-on Way:
+#### Scrape:
+1. Go to the src folder and run the following commands one after another:
+2. Run the news extraction script using the following code
    ```
    python "ndtv_class.py"
    ndtv_content = ndtv_test.run_extraction()
    hl, summ, art, urls = ndtv_content
    ```
-6. Summarize each article and all the articles by running the following code:
+#### Summarize:
+3. Summarize each article and all the articles by running the following code:
    ```
    python summarizer.py
    ```
-7. Create the newspaper by running:
+#### Generate web page:
+4. Create the newspaper by running:
    ```
    python create_newspaper.py"
    ```
