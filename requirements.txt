@@ -1,4 +1,4 @@
 beautifulsoup4==4.12.2
 dominate==2.8.0
-langchain==0.0.223
+langchain>=0.0.236
 Requests==2.31.0
