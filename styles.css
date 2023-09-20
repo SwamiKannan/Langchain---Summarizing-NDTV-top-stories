@@ -1,0 +1,260 @@
+body{
+    color: #40514E;
+    margin-top:0px;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.top-container {
+        background-color:#3C4048; /*F1F6F9*/
+        position:relative;
+        padding-top:50px;
+        }
+
+.header-photo {
+        position:relative;
+        left:50px;
+        width:15%;
+        padding-bottom:0px;
+        float: left;
+
+}
+
+.rocket-photo {
+        position:absolute;
+        visibility: inline;
+        right: 150px;
+        float: right;
+        width:10%;
+
+}
+
+.mountain {
+        position:relative;
+        left:50px;
+        aspect-ratio: 16/9;
+        width:60%;
+        float:center;
+
+
+}
+.moon {
+    position: absolute;
+    float:left;
+    clear: both;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right:0px;
+    width:10%;
+}
+
+
+h1 {
+    font-family: 'Caveat', cursive;
+    margin-top:0px;
+    font-size:5.625rem;
+    color:#009994; /*#00897b*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    color:#969696;
+    font-weight:bold;
+    padding-bottom:10px;
+
+}
+a.nav-bar-link {
+        font-family: 'Montserrat', sans-serif;
+        color: #009994;
+        word-spacing: 60px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        position: relative;
+        padding: 20px;
+        text-decoration: none;
+}
+
+a.nav-bar-link:hover {
+        /*font-family: 'Shadows Into Light Two', cursive !important;*/
+        font-family: 'Montserrat', sans-serif;
+        color: #3C4048;
+        text-decoration: underline;
+        text-decoration-color: #009994;
+        text-underline-offset: 30px;
+        color: ##3C4048;
+        /*color:#EAEAEA !important;
+        text-shadow: 0 0 0.1em #009994, 0 0 0.1em #009994, 0 0 0.1em #009994;*/
+}
+
+
+.middle-container {
+        background-color:#EAEAEA;
+}
+
+.nav-bar {
+    /*background-color:#B2B2B2;*/
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    font-family: 'Shadows Into Light Two', cursive;
+
+
+}
+
+.head-nav-bar {
+        font-family: 'Shadows Into Light Two', cursive !important;
+        word-spacing: 60px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #3C4048;
+        position: relative;
+        padding: 20px;
+}
+
+
+.profile {
+    padding:100px 0;
+}
+
+.intro {
+    color: #40514E;
+    padding-bottom:100px;
+}
+
+.skills {
+    padding-top:100px;
+}
+.skill-image {
+    width:25%;
+    float:left;
+    margin-right:20px;
+}
+
+.skill-image1 {
+    width:25%;
+    float:right;
+    margin-left:20px;
+}
+
+.skill-row {
+    width:50%;
+    margin:100px auto;
+    text-align:left;
+}
+
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#119fa6;
+    font-weight:bold;
+}
+
+
+
+hr {
+    width: 5%;
+    color: #EAF6F6;
+    border-style:  dotted none none none;
+    border-top-width: 6px;
+    margin: 100px auto;
+
+}
+
+
+
+p {
+line-height:2;
+
+
+}
+
+
+
+.skill-text {
+    padding: auto auto auto 30px;
+}
+
+/*
+a {
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+*/
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+
+.contact-message {
+        width:40%;
+        margin:40px auto 60px;
+}
+
+
+a.footer-link {
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+    padding-left: 30px;
+    margin-top:10px 20px;
+    font-weight:bold;
+}
+
+a.footer-link:hover {
+    color: #EAF6F6
+}
+
+
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #00ffed;
+  font-size: 20px;
+  font-weight:bold;
+  background: #383838;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  color: #000000;
+  font-weight:bold;
+  text-decoration: none;
+}
+/*
+F1F6F9
+14274E
+*/
+.bottom-container {
+        background-color: #66BFBF;
+        padding:50px 0 20px;
+}
+
+.copyright {
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
